@@ -1,0 +1,126 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image: url("icons/background.gif");
+	font-family: Arial, Helvetica;
+	margin: 0
+}
+.header{
+	background-color: #002080;
+	text-align: center;
+}
+.header img{
+	width:60px;
+	position:relative;
+	top:10px;
+	border-radius: 50%;
+}
+.header h1{
+	font-size: 50px;
+	color:white;
+	display:inline;
+}
+.header h1:hover{
+	color:black
+}
+.header h5{
+	font-size: 80%;
+	color:#ffffe6;
+	display:inline;
+}
+.header h3{
+	color:white;
+	position:relative;
+	bottom:10px;
+	right:7px;
+}
+.row1{
+	padding: 15px;
+	background-color: white;
+	text-align: center;
+	width:950px;
+	margin: auto;
+	border-radius:25px;
+	box-shadow:0px 3px 12px white;
+}
+.row2{
+	padding: 20px;
+	color:black;
+	margin: auto;
+	width:300px;
+	text-align: center;
+	background-color: #006699;
+	border-radius:25px;
+	box-shadow:0px 3px 12px white;
+	position:relative;
+	top:25px;
+}
+input[type=text], input[type=password]{
+	margin: 8px 0;
+	border: 2px solid red;
+	border-radius: 4px;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.row2 input[type=submit] {
+	width: 33%;
+	background-color: #ff0000;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.row2 input[type=submit]:hover {
+	background-color: #e60000;
+}
+.row3{
+	width:460px;
+	margin: auto;
+	color:white;
+	text-align: center;
+	position:relative;
+	top:25px;
+}
+.row3 input[type=submit] {
+	font-size: 120%;
+	background-color: black;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float:right;
+	position:relative;
+	bottom:17px;
+}
+.row3 input[type=submit]:hover {
+	font-size: 127%;
+}
+.row4{
+	text-align: center;
+}
+.row4 input[type=submit] {
+	width: 90px;
+	background-color: #ff0000;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.row4 input[type=submit]:hover {
+	background-color: #e60000;
+}
+.footer{
+	position:relative;
+	top:250px;
+	background-color: black;
+	padding: 30px;
+	text-align: center;
+	color:white;
+}

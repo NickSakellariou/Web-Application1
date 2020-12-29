@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TechItEasy-Register</title>
+		<meta charset="UTF-8">
+		<meta name="viewpoint" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="register.css">		
+	</head>
+	<body>
+		<div class="header">
+			<h1>
+				<a href="home_page.html">
+					<img src="icons/logo.jpeg">
+				<a>
+				TechItEasy
+			</h1>
+			<h5>All about electronics</h5>
+			<h3>Πάντα δίπλα στον πελάτη με ποιοτικές λύσεις τεχνολογίας!!!</h3>
+		</div>
+		<div class="mainrow">
+			<br>
+			<br>
+			<br>
+			<div class="row1">
+				<h1>Εγγραφή χρήστη</h1>
+			</div>
+			<div class="row2">
+				<h2>Εισάγετε τα στοιχεία σας</h2>
+				<form action="register3.php" method="post">
+					<hr>
+					<label for="name">Εισάγετε το όνομά σας</label>
+					<input type="text" placeholder="Όνομα" name="name" required>
+					<label for="surname">Εισάγετε το επώνυμό σας</label>
+					<input type="text" placeholder="Επώνυμο" name="surname" required>
+					<label for="email">Εισάγετε το E-mail σας</label>
+					<input type="text" placeholder="E-mail" name="email" required>
+					<label for="user">Εισάγετε το username σας</label>
+					<input type="text" placeholder="Username" name="user" pattern=".{8,}" required>
+					<hr>
+					<p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+					<button type="submit">Register</button>
+				</form>
+			</div>
+		</div>
+		<div class="footer">
+			&copy;
+			<a href="http://www.ds.unipi.gr/" target="_blank">2020 DS_UNIPI
+			</a>.
+			All rights reserved.
+		</div>
+	</body>
+</html>

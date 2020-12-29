@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TechItEasy</title>
+		<meta charset="UTF-8">
+		<meta name="viewpoint" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="home_page.css?v=<?php echo time(); ?>">
+		<script src="home_page.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<h1>
+				<img src="icons/logo.jpeg">
+				TechItEasy
+			</h1>
+			<h5>All about electronics</h5>
+			<h3>Πάντα δίπλα στον πελάτη με ποιοτικές λύσεις τεχνολογίας!!!</h3>
+		</div>
+		<div class="mainrow">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="row1">
+				<h2>Καλώς ήλθατε στο ηλεκτρονικό κατάστημα του TechItEasy!!!</h2>
+				Στην ιστοσελίδα μας μπορείτε να αγοράσετε προϊόντα της τεχνολογίας στις καλύτερες τιμές.Τηλεοράσεις,smarthphones,laptops ότι και αν ψάχνετε θα το βρείτε εδώ στις πιο ανταγωνιστικές τιμές της αγοράς.
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="row2">
+				<form action="home_page2.php" method="post">
+					<label for="user"><b>Username</b></label>
+					<br>
+					<input type="text" name="user" required>
+					<br>
+					<br>
+					<label for="psw"><b>Password</b></label>
+					<br>
+					<input type="password" name="psw" required>
+					<br>
+					<br>
+					<input type="submit" value="Login">
+				</form>
+			</div>
+			<br>
+			<div class="row3">
+				<h5>Σε περίπτωση που δεν είστε εγγεγραμμένος κάντε εγγραφή <form action="register.html"><input type="submit" value="εδώ"></form></h5>
+				<h5>Σε περίπτωση που είστε ο διαχειριστής κάντε σύνδεση <form action="admin_login.html"><input type="submit" value="εδώ"></form></h5>
+			</div>
+			<br>
+			<div class="row4">
+				<input type="submit" value="Οδηγίες" onclick="show_instructions()">
+			</div>
+		</div>
+		<div class="footer">
+			&copy;
+			<a href="http://www.ds.unipi.gr/" target="_blank">2020 DS_UNIPI
+			</a>.
+			All rights reserved.
+		</div>
+	</body>
+</html>

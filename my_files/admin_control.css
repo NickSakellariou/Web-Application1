@@ -1,0 +1,229 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image: url("icons/background.gif");
+	font-family: Arial, Helvetica;
+	margin: 0;
+}
+.header{
+	background-color: #002080;
+	text-align: center;
+}
+.header img{
+	width:60px;
+	position:relative;
+	top:10px;
+	border-radius: 50%;
+}
+a:visited {
+	color:#002080; 
+}
+.header h1{
+	font-size: 50px;
+	color:white;
+	display:inline;
+}
+.header h1:hover{
+	color:black
+}
+.header h5{
+	font-size: 80%;
+	color:#ffffe6;
+	display:inline;
+}
+.header h3{
+	color:white;
+	position:relative;
+	bottom:10px;
+	right:7px;
+}
+.row0{
+	background-color: white;
+	color: black;
+	text-align: center;
+	width:380px;
+	margin: auto;
+	border-radius:25px;
+	box-shadow:1px 1px 1px white;
+}
+.row1{
+	background-color: white;
+	color: black;
+	text-align: center;
+	width:320px;
+	margin: auto;
+	border-radius:25px;
+	box-shadow:1px 1px 1px white;
+}
+.row2{
+	background-color: white;
+	display:flex;
+	padding: 20px;
+	margin: auto;
+	width:600px;
+	height:500px;
+	text-align: center;
+}
+.row2 div{
+	padding:10px;
+	border-style: solid;
+	flex:33%;
+}
+.row2 h4{
+	color: black;
+	text-align: center;
+}
+.row2 img{
+	height:120px;
+}
+input[type=text], input[type=file]{
+	margin: 8px 0;
+	border: 2px solid red;
+	border-radius: 4px;
+}
+input[type=text]:focus, input[type=file]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.row2 input[type=submit] {
+	width: 40%;
+	background-color: #ff0000;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.row2 input[type=submit]:hover {
+	background-color: #e60000;
+}
+.row2 a
+{
+	color:black;
+}
+.row3 a
+{
+	color:black;
+}
+a:hover, a:visited, a:link, a:active
+{
+	text-decoration: none;
+}
+.row3{
+	background-color: white;
+	display:flex;
+	padding: 20px;
+	margin: auto;
+	width:600px;
+	height:590px;
+	text-align: center;
+}
+.row3 div{
+	padding:10px;
+	border-style: solid;
+	flex:33%;
+}
+.row3 h4{
+	color: black;
+	text-align: center;
+}
+.row3 img{
+	height:120px;
+}
+.container {
+  position: relative;
+  font-size: 22px;
+}
+.row4{
+	background-color: white;
+	color: black;
+	text-align: center;
+	width:300px;
+	margin: auto;
+	border-radius:25px;
+	box-shadow:1px 1px 1px white;
+}
+.row5{
+	background-color: white;
+	padding: 20px;
+	margin: auto;
+	width:600px;
+	height:328px;
+	text-align: center;
+}
+.row5 div{
+	padding:8px;
+	border-style: solid;
+	flex:33%;
+}
+input[type=text]{
+	margin: 8px 0;
+	border: 2px solid red;
+	border-radius: 4px;
+}
+input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.row5 input[type=submit] {
+	width: 40%;
+	background-color: #ff0000;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.row5 input[type=submit]:hover {
+	background-color: #e60000;
+}
+.row3 input[type=submit] {
+	width: 40%;
+	background-color: #ff0000;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.row3 input[type=submit]:hover {
+	background-color: #e60000;
+}
+.row6{
+	background-color: white;
+	padding: 20px;
+	margin: auto;
+	width:600px;
+	height:270px;
+	text-align: center;
+}
+.row6 div{
+	padding:8px;
+	border-style: solid;
+	flex:33%;
+}
+.row6 input[type=submit] {
+	width: 40%;
+	background-color: #ff0000;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.row6 input[type=submit]:hover {
+	background-color: #e60000;
+}
+.footer{
+	position:relative;
+	top:250px;
+	background-color: black;
+	padding: 30px;
+	text-align: center;
+	color:white;
+}

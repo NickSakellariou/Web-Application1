@@ -1,0 +1,84 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image: url("icons/background.gif");
+	font-family: Arial, Helvetica;
+	margin: 0;
+}
+.header{
+	background-color: #002080;
+	text-align: center;
+}
+.header img{
+	width:60px;
+	position:relative;
+	top:10px;
+	border-radius: 50%;
+}
+a:visited {
+	color:#002080; 
+}
+.header h1{
+	font-size: 50px;
+	color:white;
+	display:inline;
+}
+.header h1:hover{
+	color:black
+}
+.header h5{
+	font-size: 80%;
+	color:#ffffe6;
+	display:inline;
+}
+.header h3{
+	color:white;
+	position:relative;
+	bottom:10px;
+	right:7px;
+}
+.row2{
+	padding: 20px;
+	color:black;
+	margin: auto;
+	width:300px;
+	text-align: center;
+	background-color: #006699;
+	border-radius:25px;
+	box-shadow:0px 3px 12px white;
+	position:relative;
+	top:25px;
+}
+input[type=text], input[type=password]{
+	margin: 8px 0;
+	border: 2px solid red;
+	border-radius: 4px;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.row2 input[type=submit] {
+	width: 33%;
+	background-color: #ff0000;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.row2 input[type=submit]:hover {
+	background-color: #e60000;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	padding: 30px;
+	color: white;
+	text-align: center;
+}
