@@ -17,4 +17,4 @@ Then, he needs to have the folder my_files that includes source files (files .ht
 Finally, he needs to open a browser (e.g. Google Chrome) and execute the php file with the localhost link : http://localhost/my_files/home_page.html
 
 And will see the home page :
-![alt text](https://github.com/[NickSakellariou]/[Web-Application1]/blob/[images]/home_page.png?raw=true)
+![Home page](images/home_page.png?raw=true "Home page")
