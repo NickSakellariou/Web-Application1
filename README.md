@@ -6,7 +6,7 @@ This is a web application of an e-shop that sells technology products such as sm
 
 ## Prerequisites
 
-In order someone that wants to run the web application, needs to download XAMPP from the link: 
+If someone wants to run the web application, needs to download XAMPP from the link: 
 https://www.apachefriends.org/download.html
 
 And install (execute file .exe) to the path C:\xampp
